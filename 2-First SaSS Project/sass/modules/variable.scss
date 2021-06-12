@@ -1,0 +1,13 @@
+$font-stack: Helvetica, sans-serif;
+
+$base-bg-color: #fff;
+$base-text-color: #333;
+
+$base-font-size: 16px;
+$base-line-height: $base-font-size * 1.5;
+
+$base-link-color: red;
+$base-link-hover: blue;
+
+$h1-font-size: $base-font-size * 2;
+$h1-color: darken($base-text-color, 30%);

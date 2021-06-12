@@ -1,0 +1,11 @@
+@import "modules/mixins";
+
+.content h1{
+	text-align: center;
+	
+	@include text-h1();
+}
+
+.content p{
+	@include text-p();
+}

@@ -1,0 +1,12 @@
+@mixin text-h1(){
+	color: blue;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+@mixin text-p(){
+	color: green;
+	font-size: 20px;
+	font-weight: italic;
+	margin: 20px;
+}

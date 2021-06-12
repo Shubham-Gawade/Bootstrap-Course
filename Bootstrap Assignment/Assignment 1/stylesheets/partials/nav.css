@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\000033}}
+#container {
+  width: 100%;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000310}}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000318}}
+nav li {
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000321}}
+  nav li a, nav li .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000329}}
+  nav li a:hover, nav li .dropdown:hover .dropbtn {
+    background-color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000332}}
+  nav li .dropdown {
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000337}}
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000345}}
+  nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000353}}
+  nav .dropdown-content a:hover {
+    background-color: #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/G\:\/Bootstrap\%204\/Bootstrap\%20Assignment\/Assignment\%201\/sass\/partials\/nav\.scss}line{font-family:\0000357}}
+nav .dropdown:hover .dropdown-content {
+  display: block; }

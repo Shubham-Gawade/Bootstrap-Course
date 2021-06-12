@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<style>
+		button{
+			margin:50px;
+		}
+	</style>
+</head>
+<body>
+	<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-placement="top" title="Tooltip on top">
+	  Tooltip on top
+	</button>
+	
+	<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-placement="right" title="Tooltip on right">
+	  Tooltip on right
+	</button>
+	
+	<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+	  Tooltip on bottom
+	</button>
+	
+	<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-placement="left" title="Tooltip on left">
+	  Tooltip on left
+	</button>
+	
+	<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+	  Tooltip with HTML
+	</button>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<script>
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		  return new bootstrap.Tooltip(tooltipTriggerEl)
+		});
+	</script>
+</body>
+</html>

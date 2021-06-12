@@ -1,0 +1,55 @@
+h1{
+  margin: 20px;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+.feedback{
+  margin-left: 0px;
+}
+
+.follow{
+  margin-left: 10px;
+}
+
+#info{
+  color:blue;
+}
+
+button .msg-follow,
+button .msg-following,
+button .msg-unfollow{
+  display: none;
+}
+
+button .msg-follow{
+  display: inline;
+}
+
+button.following .msg-follow{
+  display: none;
+}
+
+button.following .msg-following{
+  display: inline;
+}
+
+button.following:not(.wait):hover .msg-following{
+  display: none;
+}
+
+button.following:not(.wait):hover .msg-unfollow{
+  display: inline;
+}

@@ -1,0 +1,9 @@
+#footer {
+  background: #343a40;
+  text-align: center;
+  z-index: 10;
+  padding: 30px 0;
+  color: #fff; }
+  #footer p.copyright a {
+    color: #6deaff;
+    font-weight: 700; }
